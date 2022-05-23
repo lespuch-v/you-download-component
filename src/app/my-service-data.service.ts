@@ -8,6 +8,8 @@ export class MyServiceDataService {
   isFirstModalOpened = false;
   isSecondModalOpened = false;
 
+  cogIcon = "assets/icons/cog.svg"
+
   backHandler(){
     this.isSecondModalOpened = !this.isSecondModalOpened
   
