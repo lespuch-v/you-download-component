@@ -1,0 +1,25 @@
+.main-section-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+.btn-open {
+  width: 200px;
+  height: 40px;
+  background-color: #da0027;
+  color: white;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 150ms;
+}
+.btn-open:hover {
+  box-shadow: rgb(86, 204, 255) 0px 2px 4px 0px,
+    rgb(252, 34, 34) 0px 2px 16px 0px;
+  transform: scale(1.02);
+}
+.btn-open:active {
+  transform: scale(0.99);
+}
